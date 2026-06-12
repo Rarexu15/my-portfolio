@@ -6,7 +6,7 @@ const projects = [
         title: 'Capstone Project: MemoryMate Mobile App',
         description: 'A mobile app project — add a short description of what it does and the tools used to build it.',
         link: 'https://play.google.com/store/apps/details?id=com.app.memorymate',
-        image: '/images/projects/memorymate.jpg',
+        image: '/images/projects/mm.jpg',
     },
     {
         title: 'Allowance Management System',
