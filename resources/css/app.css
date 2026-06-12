@@ -1,3 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #89023e;
+    --color-secondary: #cc7178;
+    --color-blush: #ffd9da;
+    --color-cream: #f3e1dd;
+    --color-sage: #c7d9b7;
+}
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@source '../views';
+@source '../js/**/*';
