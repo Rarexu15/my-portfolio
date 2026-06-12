@@ -3,13 +3,23 @@ import { Link } from '@inertiajs/vue3';
 
 const projects = [
     {
-        title: 'Project One',
+        title: 'Capstone Project: MemoryMate Mobile App',
         description: 'A short description of what this project does and what you used to build it.',
         link: 'https://play.google.com/store/apps/details?id=com.app.memorymate',
     },
+     {
+        title: 'Allowance Management System',
+        description: 'A custom system to track and distribute individual allowance records, built with PHP, MySQL, HTML, and JavaScript. Includes secure interfaces for expense logging and summary viewing.',
+        link: '#',
+    },
     {
-        title: 'Project Two',
-        description: 'Another project description here.',
+        title: 'Antipolo City Police Station Website',
+        description: 'A WordPress-based website with database structures for managing station attendance and timekeeping.',
+        link: '#',
+    },
+    {
+        title: 'Fuwa Fuwa Plan Branding',
+        description: 'Visual assets created for print and digital marketing campaigns, contributing to a 20% increase in brand visibility.',
         link: '#',
     },
 ];

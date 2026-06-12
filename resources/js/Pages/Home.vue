@@ -14,7 +14,8 @@ import { Link } from '@inertiajs/vue3';
         <main class="flex-1 flex flex-col items-center justify-center text-center px-4">
             <h1 class="text-5xl font-bold text-gray-900 mb-4">Hi, I'm Ralex Anzano</h1>
             <p class="text-xl text-gray-600 max-w-xl">
-                Aspiring Web Developer with a passion for creating dynamic and responsive web applications. Skilled in HTML, CSS, JavaScript, and Laravel. Eager to learn and grow in the field of web development while contributing to innovative projects.
+            A 4th-year BS Information Technology student and Fullstack Developer,
+            passionate about web development, UI/UX, and building practical solutions.
             </p>
         </main>
     </div>
