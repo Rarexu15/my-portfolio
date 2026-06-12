@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
+class ContactController extends Controller
+{
+    public function send(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string|max:2000',
+        ]);
+
+        Mail::raw(
+            "From: {$validated['name']} ({$validated['email']})\n\n{$validated['message']}",
+            function ($mail) use ($validated) {
+                $mail->to('anzanoralex@gmail.com')
+                    ->subject('New message from your portfolio')
+                    ->replyTo($validated['email']);
+            }
+        );
+
+        return back()->with('success', 'Message sent successfully!');
+    }
+}
