@@ -12,7 +12,7 @@ const links = [
 </script>
 
 <template>
-    <div class="min-h-screen bg-slate-50 flex flex-col">
+    <div class="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-white flex flex-col">
         <header class="bg-white shadow-sm sticky top-0 z-10">
             <nav class="max-w-4xl mx-auto flex justify-center gap-8 py-5">
                 <Link
