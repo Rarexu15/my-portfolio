@@ -13,7 +13,7 @@ const links = [
 
 <template>
     <div class="min-h-screen bg-cream flex flex-col">
-        <header class="bg-white shadow-sm sticky top-0 z-10">
+        <header class="bg-white shadow-sm sticky top-0 z-100">
             <nav class="max-w-5xl mx-auto flex items-center justify-between px-6 py-5">
                 <span class="font-bold text-gray-900">Ralex Anzano</span>
                 <div class="flex gap-8">
